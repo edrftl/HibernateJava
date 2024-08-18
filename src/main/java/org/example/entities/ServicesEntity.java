@@ -18,7 +18,7 @@ public class ServicesEntity {
     private String name;
 
     @Column(name = "price")
-    private int price;
+    private float price;
 
     @ManyToMany(mappedBy = "services")
     private Set<OrderEntity> orders = new HashSet<>();

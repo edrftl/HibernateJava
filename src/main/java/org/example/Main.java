@@ -44,8 +44,6 @@ public class Main {
         session.save(entity);
 
 
-
-
         transaction.commit();
         session.close();
     }
